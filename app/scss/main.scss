@@ -18,6 +18,7 @@ body {
   background-size: cover;
   background-color: #000;
   font-family: $base-font-family;
+  min-width: 950px;
 }
 
 @font-face {
@@ -30,12 +31,11 @@ body {
   width:950px;
   margin: 0 auto;
   border: 2px solid #000;
-
 }
 
 .pop_up_console_screen {
   background-color: #1d2e42;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   top:0;
   bottom: 0;
