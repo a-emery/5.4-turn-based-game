@@ -18,7 +18,7 @@ body {
   background-size: cover;
   background-color: #000;
   font-family: $base-font-family;
-  // min-width: 950px;
+  min-width: 950px;
 }
 
 @font-face {
@@ -41,7 +41,7 @@ body {
   bottom: 0;
   left:0;
   right:0;
-  opacity: .6;
+  opacity: 1;
 }
 
 .pop_up_console {
